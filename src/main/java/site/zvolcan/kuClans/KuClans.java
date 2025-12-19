@@ -39,7 +39,7 @@ public final class KuClans extends JavaPlugin {
         dataManager = new DataManager(clansManager);
 
         if (getServer().getPluginManager().getPlugin("PlaceholderAPI") != null) {
-            placeholdersKuClans = new PlaceholdersKuClans(this, dataManager);
+            placeholdersKuClans = new PlaceholdersKuClans(this, dataManager, clansManager);
             placeholdersKuClans.register();
         }
 
