@@ -1,0 +1,12 @@
+name: KuClans
+version: '1.0'
+main: site.zvolcan.kuClans.KuClans
+api-version: '1.21'
+authors: [ "volcqnn" ]
+website: docs.zvolcan.site
+dependencies:
+  server:
+    PlaceholderAPI:
+      join-classpath: true
+      load: AFTER
+      required: false

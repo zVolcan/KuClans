@@ -1,0 +1,17 @@
+clan-send-message-join-member: true
+format-display-clan-name: " <gray>[<white>{clan}<gray>]"
+
+clan-inventory-enabled: true
+max-members-per-clan: -1
+
+clan-chat:
+  enabled: true
+  format: "<gray>[Clan] <white>{player}: <gray>{message}"
+
+database:
+  type: sqlite # sqlite, mysql
+  host: localhost
+  port: 3306
+  database: kudb
+  username: root
+  password: password

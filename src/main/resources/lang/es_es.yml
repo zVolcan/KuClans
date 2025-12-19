@@ -1,0 +1,41 @@
+prefix: "<b><gradient:#F61281:#E32D2D>KUCLANS</gradient></b> <dark_gray><b>⚫</b></dark_gray> "
+success-reload-messages: "<green>¡Mensajes recargados con exito!"
+not-in-clan: "<red>¡No te encuentras en un Clan!"
+clan-chat-enabled: "<white>¡Clan Chat <green>Habilitado</green><white>!"
+clan-chat-disabled: "<white>¡Clan Chat <red>Deshabilitado</red><white>!"
+not-console-command: "<red>¡Necesitas ejecutar ese comando desde el juego!om"
+no-pending-invitations: "<red>¡No tienes invitaciones pendientes!"
+clan-created: "<green>¡Clan <yellow>{clan}<green> creado con exito!"
+invitation-accepted: "<green>¡Has aceptado la invitación al clan <yellow>{clan}<green>!"
+invitation-declined: "<red>¡Has rechazado la invitación al clan <yellow>{clan}<red>!"
+success-reload-placeholders: "<green>¡Placeholders recargados con exito!"
+
+invitation-to-the-join-clan:
+  - ""
+  - "      <green>¡Has sido invitado al clan <yellow>{clan}</yellow>!"
+  - "                        <green><click:run_command:'clan accept {player}'><u>Has clic</u></click> para aceptar</green>"
+  - ""
+
+clan:
+  does-not-exist: "<red>¡El clan <yellow>{clan}<red> no existe!"
+  join-member-message: "<green>{player}<gray> se ha conectado al servidor."
+  left-member-message: "<red>{player}<gray> se ha desconectado del servidor."
+  not-has-rank-required: "<red>No cuentas con el rango necesario para hacer eso."
+  clan-full-of-members: "<red>¡El clan se encuentra lleno!"
+  not-to-invite-myself: "<red>No puedes invitarte a ti mismo."
+  not-to-kick-myself: "<red>No puedes kickearte a ti mismo."
+  not-in-clan: "<red>¡No te encuentras en un clan!"
+  already-in-clan: "<red>¡Ya te encuentras en un clan!"
+  invited-player: "<white>Jugador <green>{player}<white> invitado al clan."
+  member-joined-clan: "<yellow>{player}<white> ha entrado al clan."
+  member-left-clan: "<yellow>{player}<white> ha salido del clan."
+  created-successfully: "<green>¡Clan <yellow>{clan}<green> creado con exito!"
+
+
+armor-trim-inventory:
+  title: "<black>Personalización de Armadura"
+  chestplate-item-name: "<gold>Pechera"
+  leggings-item-name: "<gold>Pantalones"
+  boots-item-name: "<gold>Botas"
+  helmet-item-name: "<gold>Casco"
+  close-item-name: "<red>Cerrar"
